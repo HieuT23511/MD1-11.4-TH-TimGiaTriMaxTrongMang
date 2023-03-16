@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Tìm giá trị MAX trong mảng</title>
+</head>
+<body>
+<script>
+    let paraghaph= 'Trong mang [-1, -3, 3, 5, 22, 7, 9, 11]'
+    let array = [-1, -3, 3, 5, 22, 7, 9, 11];
+    let max = array[0];
+    for (let i = 1; i < array.length; i++) {
+        if (max < array[i]) {
+            max = array[i]
+        }
+    }
+    document.write(`${paraghaph} <br> So lon nhat la ${max}`);
+</script>
+</body>
+</html>
